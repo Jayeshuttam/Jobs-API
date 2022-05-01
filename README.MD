@@ -1,7 +1,25 @@
+
+
+The API is completed.
+It is live on Heroku,
+check it out on :  https://jobs-api-7844.herokuapp.com/
+You can also run it on localhost all the test cases have been tested on POSTMAN and for live server through SWAGGER UI
+
+for localhost you have to setup the following things:
+1.MONG_URI
+2.JWT_SECRET
+3.JWT_LIFETIME
+
+
+
+
+
+
+
 #### Setup
 
 ```bash
-npm install && npm start
+npm install && node app.js
 ```
 
 #### Database Connection
@@ -55,15 +73,3 @@ Email Validation Regex
 - xss-clean
 - express-rate-limit
 
-Swagger UI
-
-```yaml
-/jobs/{id}:
-  parameters:
-    - in: path
-      name: id
-      schema:
-        type: string
-      required: true
-      description: the job id
-```
