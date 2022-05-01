@@ -8,7 +8,7 @@ check it out on :  https://jobs-api-7844.herokuapp.com/
 
 You can also run it on localhost all the test cases have been tested on POSTMAN and for live server through SWAGGER UI
 
-for localhost you have to setup the following things:
+for localhost you have to setup the following values in .env file:
 1.MONG_URI
 2.JWT_SECRET
 3.JWT_LIFETIME
